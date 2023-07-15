@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Button</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      * {
+        font-family: 'Raleway', sans-serif;
+      }
+      .btn{
+        border: 2px solid black;
+        padding: 10px 15px;
+        font-size: 13px;
+       background-color:black ;
+       color:white  ;
+       text-decoration: none;
+      
+      }
+      .btn-outline{
+        border: 2px solid black;
+        padding: 10px 15px;
+        font-size: 13px;
+       color:black  ;
+       text-decoration: none;
+       
+      }
+
+      .rounded{
+        border-radius: 5px;
+      }
+      .btn-secondary{
+        background-color: #fc85ae;
+        border-color: #fc85ae;
+      }
+      .btn-secondary-outline{
+
+      }
+      .btn-warning{
+        background-color: #cabbe9;
+        border-color: #cabbe9;
+      }
+
+    </style>
+  </head>
+  <body>
+    <button class="btn">Primary Btn </button>
+    <button class="btn btn-secondary">Secondary </button>
+    <button class="btn btn-warning">Warning</button>
+    <a href="#" class="btn rounded">Primary Btn</a>
+
+    <br>
+    <br>
+
+    <button class="btn-outline rounded">Outline Btn</button>
+    <a href="#" class="btn-outline">Outline Btn</a>
+
+    <button class="btn">
+        <i class="fa-solid fa-home"></i>
+    </button>
+    <button class="btn-outline">
+        <i class="fa-solid fa-home"></i>
+    </button>
+    
+    </button>
+  </body>
+</html>
